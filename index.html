@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1{
+            background-color: lightblue;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th,td{
+            border:1px solid white;
+        }
+        .box{
+            border:1px solid;
+            background-color: rgb(185, 223, 240);
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>HTML</h1>
+    <h3>Task 1 </h3>
+    <table class="table1" >
+        <tr>
+            <th>First Name </th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill </td>
+            <td>Smith</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Eve  </td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John </td>
+            <td>Doe </td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <h3>Task 2</h3>
+    <div style="border:1px solid" >
+    <p>List can be nested :</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    </div>
+    <br>
+
+    <div class="box">
+        <p>Click on any of the links</p>
+        <a href="https://www.google.co.in/" target="_blank">Open in New</a> | 
+        <a href="https://www.google.co.in/" target="_self">Open in self </a> | 
+        <a href="https://www.google.co.in/" target="_parent">Open in Parent</a> | 
+        <a href="https://www.google.co.in/" target="_top">Open in Body</a> 
+    </div>
+
+    <h3>Task 3</h3>
+
+    <h3 style="color: blue; text-align: center;">Registration Form</h3>
+    <form>
+        <table align="center" border="1" cellpadding="5">
+            <tr border="1" cellpadding="5">
+                <td>First name:</td>
+                <td><input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Last name:</td>
+                <td><input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email"> </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password"> </td>
+            </tr>
+            <tr>
+                <td>Re-enter Password</td>
+                <td><input type="password"> </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                  </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number"> </td>
+            </tr>
+            <tr>
+                <td>Phone number:</td>
+                <td><input type="number"> </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="Address"> </textarea></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text"> </td>
+            </tr>
+            <tr>
+                <td>Country:
+                <select name="Country">
+                    <option>Choose your country</option>
+                    <option>India</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Japan</option>
+                </select>
+            </td>
+            </tr>
+            <td>Languages known</td>
+                <td>
+                <input type="checkbox" > English
+                <input type="checkbox" > Kannada
+                <input type="checkbox" > Hindi
+                <input type="checkbox" > Telugu
+            </td>
+            <tr>
+                <td><input type="checkbox"> I declare the above information to be true
+                    </td>
+            </tr>              
+        </table>
+        <div style="text-align: center;"> 
+            <input type="submit" name="register">
+        </div>
+    </form>
+
+    
+    
+</body>
+</html>
