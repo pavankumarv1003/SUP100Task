@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1{
+            border:1px white ;
+            background-color: lightblue;
+            border-radius: 3px;
+            width :500px;
+        }
+        th,td{
+            border:1px solid   ;
+            border-radius: 25px;
+        }
+        .b1{
+            border:10px;
+            width: 20px;
+        }
+        .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 10px;
+      padding: 20px;
+    }
+
+    .shape {
+      width: 100px;
+      height: 60px;
+      border: 2px solid #8AC441;
+      box-sizing: border-box;
+    }
+
+    .rounded-small {
+      border-radius: 5px;
+    }
+
+    .rounded-medium {
+      border-radius: 15px;
+    }
+
+    .rounded-large {
+      border-radius: 30px;
+    }
+
+    .oval {
+      border-radius: 50%;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS: Task 1</h1>
+    <table class="table1">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>age</th>
+        </tr>
+        <tr>
+            <td>jill</td>
+            <td>smith</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>eve</td>
+            <td>jackson</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>john</td>
+            <td>doe</td>
+            <td>70</td>
+        </tr>
+    </table>
+    <br>
+    <div class="grid">
+        <div class="shape rounded-small"></div>
+        <div class="shape rounded-medium"></div>
+        <div class="shape rounded-large"></div>
+      
+        <div class="shape rounded-small"></div>
+        <div class="shape"></div>
+        <div class="shape rounded-medium"></div>
+      
+        <div class="shape oval"></div>
+        <div class="shape"></div>
+        <div class="shape rounded-medium"></div>
+      </div>
+</body>
+</html>
