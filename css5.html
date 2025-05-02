@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      margin: 50px auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      box-shadow: 0 0 10px #aaa;
+    }
+
+    .avatar {
+      display: block;
+      margin: 0 auto 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 15px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button.login {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button.login:hover {
+      background-color: #45a049;
+    }
+
+    .remember {
+      margin: 10px 0;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      background-color: #f1f1f1;
+      padding: 10px;
+    }
+
+    .cancelbtn {
+      background-color: #f44336;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .cancelbtn:hover {
+      background-color: #da190b;
+    }
+
+    .psw a {
+      color: #0000EE;
+      text-decoration: none;
+    }
+
+    .psw a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <h1>CSS:Task 5</h1>
+
+<div class="container">
+  <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRpVhGkzSemdnQTzswvqqyJeWreYjHUfFkVBdpRLB-F83OAK56Z" alt="Avatar" class="avatar">
+
+  <label><b>Username</b></label>
+  <input type="text" placeholder="Enter Username" name="uname" required>
+
+  <label><b>Password</b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required>
+
+  <button class="login">Login</button>
+
+  <div class="remember">
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="footer">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</div>
+
+</body>
+</html>
